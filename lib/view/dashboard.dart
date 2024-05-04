@@ -28,10 +28,9 @@ class _DashBoardHomeState extends State<DashBoardHome> {
     List<Category> ofCategory = [
       Category(
           image: "assets/images/books.png",
-          text: "Books",
+          text: "Bookss",
           ontap: () {
             context.read<BooksController>().booksResponse();
-
             Navigator.push(context,
                 MaterialPageRoute(builder: (context) => const Books()));
           }),
